@@ -1,5 +1,5 @@
 //
-//  ViewController.swift
+//  ColorsDetailsVC.swift
 //  ColorPicker
 //
 //  Created by Chaitanya J on 01/02/2025.
@@ -7,13 +7,19 @@
 
 import UIKit
 
-class ViewController: UIViewController {
+class ColorsDetailsVC: UIViewController{
+ 
 
+    var colour: UIColor?
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view.
+        view.backgroundColor = colour ?? .blue
     }
-
+    
 
 }
+
+
+
 
